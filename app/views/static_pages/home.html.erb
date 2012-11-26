@@ -1,0 +1,102 @@
+<% provide(:title, 'Home') %>
+
+<!-- Carousel
+================================================== -->
+<div id="myCarousel" class="carousel slide">
+  <div class="carousel-inner">
+    <div class="item active">
+      <%=  image_tag("slide-01.jpg") %>          
+      <div class="container">
+        <div class="carousel-caption">
+          <h1>Attract more customers to your business</h1>
+          <p class="lead">
+            Promotrine has created a new way for you to reach potential customers near your business. Using their mobile device, these customers can find your offer and visit your business right away.
+          </p>
+          <a class="btn btn-large btn-primary" href="#">Sign up today</a>
+        </div>
+      </div>
+    </div>
+    <div class="item">
+      <%=  image_tag("slide-02.jpg") %>
+      <div class="container">
+        <div class="carousel-caption">
+          <h1>Discover a lot of good offers just near to you</h1>
+          <p class="lead">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+          <a class="btn btn-large btn-primary" href="#">Learn more</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <a class="left carousel-control" href="#myCarousel" data-slide="prev">&lsaquo;</a>
+  <a class="right carousel-control" href="#myCarousel" data-slide="next">&rsaquo;</a>
+</div><!-- /.carousel -->
+
+
+<!-- Marketing messaging and featurettes
+================================================== -->
+
+
+<div class="container marketing">
+
+  <!-- Three columns of text below the carousel -->
+  <div class="row">
+
+    <h2 class="featurette-heading">Promotrine is the best way to stay connected with your customers</h2>
+
+    <div class="span4">
+      <img class="img-circle" src="http://placehold.it/140x140">
+      <h2>Connect with customers near you</h2>
+      <p>Your business benefits from increased awareness as customers can find your offer on our website or mobile app</p>
+      
+    </div><!-- /.span4 -->
+
+    <div class="span4">
+      <img class="img-circle" src="http://placehold.it/140x140">
+      <h2>Get started in minutes</h2>
+      <p>Setting up an offer is easy. Create an account, select the type of offer, decide how long you want it to run and the offer will go live within hours.</p>
+      
+    </div><!-- /.span4 -->
+
+    <div class="span4">
+      <img class="img-circle" src="http://placehold.it/140x140">
+      <h2>Redeem offers with ease</h2>
+      <p>Customers simply show you the offer on their phone and you apply the appropriate discount at checkout. We’ll take care of the rest so that you don’t have to track each redemption.</p>
+      
+    </div><!-- /.span4 -->
+
+  </div><!-- /.row -->
+
+
+  <!-- START THE FEATURETTES -->
+
+  <hr class="featurette-divider">
+
+  <div class="featurette">
+    <%= image_tag("browser-icon-chrome.png", :class => "featurette-image pull-right") %>
+    
+    <h2 class="featurette-heading">First featurette headling.</h2>
+    <p class="lead">
+      Promotrine helps you to create and sell shareable local deals that are good for customers and good for your business. We give you the tools you need to make your deal a success. 
+
+      With our marketing tools you can track your campain audience, analise a lot of metrics and send deals to new and loyal customers. 
+
+      You want to grow your business, and the best way to do that is to build strong connections and reach more new customers. That's where we come in. </p>
+  </div>
+
+  <%= render 'layouts/footer' %>
+</div><!-- /.container -->
+
+
+<!-- <div class="center hero-unit">
+  <h1>PromoTrine</h1>
+
+  <h2>
+    This is the home page for the
+    <a href="http://railstutorial.org/">Ruby on Rails Tutorial</a>
+    sample application.
+  </h2>
+
+  <%= link_to "Sign up now!", signup_path, class: "btn btn-large btn-primary" %>
+</div>
+
+<%= link_to image_tag("rails.png", alt: "Rails"), 'http://rubyonrails.org/' %> -->
